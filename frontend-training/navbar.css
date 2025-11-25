@@ -29,3 +29,25 @@ margin: 0%;
   text-decoration: underline;
   color: aqua;
 }
+
+.hamburger{
+  display:none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+@media(max-width:600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+
