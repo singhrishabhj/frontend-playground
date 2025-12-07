@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+.box-wrapper{
+    border: 5px;
+    border-color: blue;
+    border-style: dotted;
+    width: auto;
+    color:red;
+    height: 250px;
+    position: relative;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin :10px;
+    padding: 10px;
+
+}
+
+.relative{
+    top:20px;
+    right:20x
+}
+
+.absolute{
+    top:20px;
+    right:20x
+}
+
+.fixed{
+    bottom: 20px;
+    right: 20px;
+
+}
